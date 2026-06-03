@@ -1,0 +1,12 @@
+{
+  "base_url": "https://zenodo.org/record/7258553/files",
+  "target_dir": "nanobodybuilder2",
+  "license": "BSD-3-Clause",
+  "files": [
+    "nanobody_model_1",
+    "nanobody_model_2",
+    "nanobody_model_3",
+    "nanobody_model_4"
+  ],
+  "_comment": "NanoBodyBuilder2 weights. URLs mirror ImmuneBuilder/NanoBodyBuilder2.py model_urls. Zenodo record 7258553 is an immutable DOI version, so downloads are reproducible."
+}

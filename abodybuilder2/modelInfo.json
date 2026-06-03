@@ -1,0 +1,12 @@
+{
+  "base_url": "https://zenodo.org/record/7258553/files",
+  "target_dir": "abodybuilder2",
+  "license": "BSD-3-Clause",
+  "files": [
+    "antibody_model_1",
+    "antibody_model_2",
+    "antibody_model_3",
+    "antibody_model_4"
+  ],
+  "_comment": "ABodyBuilder2 weights. URLs mirror ImmuneBuilder/ABodyBuilder2.py model_urls. Zenodo record 7258553 is an immutable DOI version, so downloads are reproducible."
+}

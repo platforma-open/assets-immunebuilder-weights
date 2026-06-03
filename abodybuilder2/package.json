@@ -1,0 +1,28 @@
+{
+  "name": "@platforma-open/milaboratories.immunebuilder-weights-assets.abodybuilder2",
+  "version": "1.0.0",
+  "description": "ImmuneBuilder ABodyBuilder2 model weights (Zenodo record 7258553, BSD-3-Clause)",
+  "scripts": {
+    "cleanup": "rm -rf ./pkg-*.tgz ./pkg-*.zip && rm -rf ./build/ && rm -rf ./dist/ && rm -rf ./indexed_model/",
+    "build": "../scripts/download-weights.sh ./modelInfo.json",
+    "postbuild": "pl-pkg build && ([ -z \"${CI}\" ] || pl-pkg publish)"
+  },
+  "block-software": {
+    "entrypoints": {
+      "main": {
+        "asset": {
+          "type": "asset",
+          "registry": "platforma-open",
+          "root": "./indexed_model/abodybuilder2"
+        }
+      }
+    }
+  },
+  "files": [
+    "dist/"
+  ],
+  "license": "BSD-3-Clause",
+  "devDependencies": {
+    "@platforma-sdk/package-builder": "catalog:"
+  }
+}

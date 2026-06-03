@@ -1,0 +1,30 @@
+{
+  "name": "@platforma-open/milaboratories.immunebuilder-weights-assets",
+  "version": "1.0.0",
+  "description": "ImmuneBuilder model weights assets catalogue",
+  "scripts": {
+    "cleanup": "rm -rf ./pkg-*.tgz && rm -rf ./dist/",
+    "build": "pl-pkg build"
+  },
+  "block-software": {
+    "entrypoints": {
+      "abodybuilder2": {
+        "reference": "@platforma-open/milaboratories.immunebuilder-weights-assets.abodybuilder2/dist/tengo/asset/main.as.json"
+      },
+      "nanobodybuilder2": {
+        "reference": "@platforma-open/milaboratories.immunebuilder-weights-assets.nanobodybuilder2/dist/tengo/asset/main.as.json"
+      }
+    }
+  },
+  "files": [
+    "dist/"
+  ],
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@platforma-open/milaboratories.immunebuilder-weights-assets.abodybuilder2": "workspace:*",
+    "@platforma-open/milaboratories.immunebuilder-weights-assets.nanobodybuilder2": "workspace:*"
+  },
+  "devDependencies": {
+    "@platforma-sdk/package-builder": "catalog:"
+  }
+}

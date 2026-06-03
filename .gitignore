@@ -1,0 +1,13 @@
+node_modules/
+dist/
+build/
+pkg-*.tgz
+pkg-*.zip
+*.tgz
+.turbo/
+
+# pl-pkg build artifact (software/asset descriptor); regenerated on every build.
+package.sw.json
+
+# Asset build outputs — weights live here after `pnpm build`; not committed.
+indexed_model/
