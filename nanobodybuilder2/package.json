@@ -1,6 +1,6 @@
 {
   "name": "@platforma-open/milaboratories.immunebuilder-weights-assets.nanobodybuilder2",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "ImmuneBuilder NanoBodyBuilder2 model weights (Zenodo record 7258553, BSD-3-Clause)",
   "scripts": {
     "cleanup": "rm -rf ./pkg-*.tgz ./pkg-*.zip && rm -rf ./build/ && rm -rf ./dist/ && rm -rf ./indexed_model/",

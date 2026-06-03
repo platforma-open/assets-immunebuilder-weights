@@ -1,6 +1,6 @@
 {
   "name": "@platforma-open/milaboratories.immunebuilder-weights-assets",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "ImmuneBuilder model weights assets catalogue",
   "scripts": {
     "cleanup": "rm -rf ./pkg-*.tgz && rm -rf ./dist/",
